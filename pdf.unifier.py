@@ -25,7 +25,7 @@ def main():
         'you produce two 5-page documents, the first contains pages [1,3,5,7,9], the second - [10,8,6,4,2]. This script'
         ' unifies the two pdfs into one.',
         'Example usage:',
-        './pdf.unifier.py -o odd.pages.pdf -e even.pages.pdf -r result.pdf']),
+        './pdf.unifier.py -o example/odd.pages.pdf -e example/even.pages.pdf -r example/result.pdf']),
         formatter_class=RawTextHelpFormatter)
     parser.add_argument('-o', '--odd-pages-pdf', required=True, help='The pdf containing the odd pages.')
     parser.add_argument('-e', '--even-pages-pdf', required=True, help='The pdf containing the even pages.')
